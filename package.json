@@ -1,0 +1,32 @@
+{
+  "version": "3.0.2",
+  "name": "react-accessible-details",
+  "description": "React Accessible Details",
+  "author": "Matthew Holloway <matthew@springload.co.nz>",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "details",
+    "summary",
+    "accessible",
+    "html5",
+    "typescript"
+  ],
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "yarn rimraf && tsc",
+    "test:typescript": "tsc --project ./",
+    "rimraf": "rimraf ./dist/*"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^16.9.15",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.4000"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}

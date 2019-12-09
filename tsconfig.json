@@ -1,0 +1,16 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "../govtnz-ds-website/src/templates/components-index-template.js"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "lib": ["ES2015"]
+  }
+}
