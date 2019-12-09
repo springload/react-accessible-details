@@ -1,8 +1,22 @@
-# React Accessible Details / Summary
+# React Accessible `<Details>` / `<Summary>`
 
 The little runt brother of [React Accessible Accordion](https://www.npmjs.com/package/react-accessible-accordion) which is probably what you want instead of this.
 
 But if you do want HTML5 [`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) and [`<summary>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) tags in React with React-managed state and a few accessibility improvements then this is it.
+
+## Install
+
+```
+yarn add react-accessible-details
+```
+
+or
+
+```
+npm i react-accessible-details
+```
+
+## Stale?
 
 Often projects on NPM are considered stale if they're not under active development, but that's a problem for software that does one thing and that may not need further development (unless Issues are raised). So this project is deemed **stable and complete** unless Github Issues are raised, so please don't be scared off by the fact that this project isn't under active development.
 
@@ -39,6 +53,8 @@ No dependencies except peer dependencies on React 16.8 or later as we're using u
 ## Styling
 
 This component doesn't include any styling, and although it will work in IE11 you may need to provide some default styles for this browser such as `display:block` on the `<summary>` tag.
+
+Because the components support `className` they're compatible with Styled Components if you want that approach.
 
 ## Credit
 
