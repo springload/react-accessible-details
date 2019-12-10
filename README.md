@@ -54,7 +54,7 @@ No dependencies except peer dependencies on React 16.8 or later as it uses useSt
 
 This component doesn't include any styling, and although it will work in IE11 you may need to provide some default styles for that browser such as `display:block` on the `<summary>` tag.
 
-Because both components support `className` props they're compatible with Styled Components.
+Because both components support `className` props they're compatible with [Styled Components](https://www.styled-components.com/).
 
 ## Credit
 
