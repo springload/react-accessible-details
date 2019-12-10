@@ -2,7 +2,7 @@
 
 The little runt brother of [React Accessible Accordion](https://www.npmjs.com/package/react-accessible-accordion) which is probably what you want instead of this.
 
-But if you do want HTML5 [`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) and [`<summary>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) tags in React with React-managed state and a few accessibility improvements then this is it.
+But if you do want HTML5 [`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) and [`<summary>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary) tags in React with managed state and a few accessibility improvements then this is it.
 
 ## Install
 
